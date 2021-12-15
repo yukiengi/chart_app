@@ -8,7 +8,7 @@ import Turbolinks from 'turbolinks'
 import * as ActiveStorage from '@rails/activestorage'
 import 'channels'
 import 'chart.js/dist/chart'
-
+require('./graph')
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
